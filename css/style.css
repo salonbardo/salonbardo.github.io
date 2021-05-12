@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap');
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Serif', sans-serif;
+  color: #222;
+}
+
+
+.home{
+    background-image: url("https://thumb.tildacdn.com/tild6462-6433-4666-a337-643665623830/-/format/webp/blonde-girl-getting-.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    width:100%;
+}
+
+
+.home h1{
+  font-family: 'Noto Serif', sans-serif;
+font-size: calc(1em + 3vw);
+  color: white;
+  max-width: 100%;
+    height: auto;
+    text-align: center;
+  color: white;
+}
+
+
+.home h2{
+  font-family: 'Noto Serif', sans-serif;
+font-size: calc(1em + 1vw);
+  color: white;
+  max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.overlay {
+    background-color: rgba(41, 39, 34, 0.50);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top: 0;
+}
+
+
+.zak{
+  padding-top: 70px;
+  padding-bottom: 50px;
+ }
+
+
+.zak img{
+  max-width: 100%;
+    height: auto;
+}
+
+
+.card1{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.zak h1{
+  color: #000;
+  margin-top: 40px;
+  text-align: center;
+font-size: 30px;
+}
+
+
+.gallery img{
+  max-width: 100%;
+    height: auto; 
+}
+
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #4d1a00; /* Цвет линии для остальных браузеров */
+    background-color: #4d1a00; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    width: 120px;
+   }
+
+
+.hr2 {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: white; /* Цвет линии для остальных браузеров */
+    background-color: #999999; /* Цвет линии для браузера Firefox и Opera */
+    height: 0.5px; /* Толщина линии */
+    width: initial;
+   }
+
+
+   .page-layout {
+       height: auto;
+       padding: 50px 0;
+       width: 100%;
+       background-color: #fff;
+   }
+
+
+   .about {
+       padding-top: 70px;
+       padding-bottom: 70px;
+       text-align: left;
+   }
+
+
+   .about img {
+       height: 100%;
+       width: 100%;
+   }
+
+
+.opisanie{
+  font-size: 18px;
+  text-align: left;
+}
+
+
+#navbarSupportedContent{
+  margin-left: 3em;
+}
+
+
+.logo{
+  margin-left: 2em;
+}
+
+
+.phone{
+ padding-top: 10px;
+}
+
+
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+}
+
+
+details {
+  width: 75%;
+  min-height: 5px;
+  max-width: 700px;
+  padding: 45px 70px 45px 45px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 22px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+
+details + details {
+  margin-top: 20px;
+}
+
+
+details[open] {
+  min-height: 50px;
+  background-color: #f6f7f8;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+
+details p {
+  color: #96999d;
+  font-weight: 300;
+}
+
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+summary:focus {
+  outline: none;
+}
+
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+
+.control-icon-close {
+  display: none;
+}
+
+
+details[open] .control-icon-close {
+  display: initial;
+  transition: .3s ease;
+}
+
+
+details[open] .control-icon-expand {
+  display: none;
+}
+
+
+footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+footer a:hover {
+  color: white;
+}
+
+
+footer{
+  font-family: "Noto Serif";
+  background: #151e1e;
+  padding-bottom: 7px;
+   padding-top: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+
+.footerlog{
+  text-align: center;
+  color: #2a3c3c;
+  font-size: 15px;
+}
+
+
+.footerinfo{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.p-top-80 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.vopr{
+  margin-bottom: 70px;
+  margin-top: 70px;
+  font-family: 'Noto Serif';
+}
+
+
+.aspect-name{
+  padding-top: 30px;
+}
+
+
+.opinion-header{
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
